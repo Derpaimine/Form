@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Form</title>
+<meta name="description" content="Roughly 155 characters">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+<style>
+    header {
+   background: rgba( 22, 8, 8, 0.3 );
+      padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: red;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 1px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+</style>
+</head>
+<body>
+  <header> <b> Questions</b> </header>
+  <!-- modify this form HTML and place wherever you want your form -->
+<form
+action="https://formspree.io/f/mayakqdg"
+method="POST"
+>
+<label>
+  First name
+  <input type="text" name="Name">
+</label>
+<br> </br>
+<label>
+    Surname
+    <input type="text" name="Surname">
+  </label>
+  <br> </br>
+<label>
+    Email
+    <input type="email" name="Email">
+</label>
+<br></br>
+<label>
+    Phone Number
+    <input type="tel" name="Pnumber">
+</label>
+<br></br>
+<label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <br></br>
+  <button type="submit">Send</button>
+</form>
+  
+
+</body>
+</html>
